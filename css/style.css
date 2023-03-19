@@ -1,0 +1,159 @@
+.ddmenu{
+   
+    border-top: 2px solid rgba(5, 118, 224, 0.956);
+}
+.colora{
+    color: rgba(5, 118, 224, 0.956);
+}
+
+/*nav{
+position: sticky;
+top: 0;
+}*/
+body{
+ 
+    font-family: 'Heebo', sans-serif;
+}
+.btn1{
+    border-radius: 20px;
+    padding: 8px;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+.img1{
+    width: 750px;
+    height: 650px;
+}
+.p1{
+    color: rgb(108, 117,125);
+   
+}
+.card1{
+    position: relative;
+    background-color:#f1f1f1 ;
+    transition: 0.3s;
+}
+
+.circle{
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color:  rgba(5, 118, 224, 0.956);
+    left: 50%;
+    text-align: center;
+transform: translate(-50%,-50%);
+
+}
+.colorw{
+   color: white;
+   position: absolute;
+font-size: 20px;
+   transform: translate(-50%,100%);
+}
+.img2{
+    width: 600px;
+    height: 500px;
+}
+.p1{
+    width: 400px;
+}
+.img3{
+border-radius: 50%;
+}
+.card-3{
+    width: 450px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+    border-left: 10px solid rgba(5, 118, 224, 0.956);
+}
+.section2{
+ padding-left: 150px;
+ margin-top: 120px;
+ margin-bottom: 120px;
+}
+.about{
+    background-color:#f1f1f1 ;
+    padding: 20px;
+}
+.list{
+    list-style: none;
+}
+.list li i{
+    margin-right: 10px;
+    color: green;
+}
+.card3{
+    border: none;
+    border-radius: 0;
+}
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+  .reveal2 {
+    position: relative;
+    opacity: 0;
+  }
+  .active2.fade-left {
+    animation: fade-left 1s ease-in;
+  }
+  .active2.fade-right {
+    animation: fade-right 1s ease-in;
+  }
+  .reveal2.active2 {
+    opacity: 1;
+  }
+  @keyframes fade-left {
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-right {
+    0% {
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @media(max-width:767px){
+   
+  }
+  .card1:hover{
+    background-color: rgba(5, 118, 224, 0.956);
+    color: white; 
+    bottom: 5px;
+  
+  }
+  .card1:hover .circle{
+    background-color: white;
+  }
+  .card1:hover i{
+    color: rgba(5, 118, 224, 0.956);
+  }
+  .colorwhite:hover{
+color: white;
+  }
+  @media(max-width:767px) {
+    .img2{
+      width: 300px;
+      height: 300px;
+    }
+    .p1{
+      width: 300px;
+    }
+  }
